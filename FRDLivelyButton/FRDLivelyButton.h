@@ -29,7 +29,7 @@ typedef enum {
 @interface FRDLivelyButton : UIButton
 
 -(kFRDLivelyButtonStyle) buttonStyle;
-
+-(void) commonInitializer;
 -(void) setStyle:(kFRDLivelyButtonStyle)style animated:(BOOL)animated;
 
 @property (nonatomic, strong) NSDictionary *options;

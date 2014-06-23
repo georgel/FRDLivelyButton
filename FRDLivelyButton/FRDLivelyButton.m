@@ -48,7 +48,7 @@ NSString *const kFRDLivelyButtonStyleChangeAnimationDuration = @"kFRDLivelyButto
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        [self commonInitializer];
+//        [self commonInitializer];
     }
     return self;
 }
@@ -57,7 +57,7 @@ NSString *const kFRDLivelyButtonStyleChangeAnimationDuration = @"kFRDLivelyButto
 {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        [self commonInitializer];
+//        [self commonInitializer];
     }
     return self;
 }
